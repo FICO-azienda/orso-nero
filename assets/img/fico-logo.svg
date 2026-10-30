@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4 0 82 40" role="img" aria-label="Fico">
+  <path d="M20 9c6.5 0 11 6.6 11 14.4C31 30.6 26.2 35 20 35S9 30.6 9 23.4C9 15.6 13.5 9 20 9Z" fill="#6B3F69"/>
+  <path d="M20 9c-.2-2.6.6-4.6 2.4-6" stroke="#3F5B2E" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <path d="M22.4 4.2c2.8-2.2 6.6-2.2 8.6.2-2.6 1.9-6 2.1-8.6-.2Z" fill="#5E8A3C"/>
+  <path d="M15 24.5c1.4 3.2 4 4.6 7.6 4.2" stroke="#E7C9D9" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+  <text x="38" y="28.5" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-style="italic" fill="#141312">fico</text>
+</svg>
