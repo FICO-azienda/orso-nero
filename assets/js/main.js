@@ -24,6 +24,7 @@ const EN = {
   "space.eyebrow": "Via Paolo Lomazzo 20",
   "space.title": "A former workshop where <em>coffee meets work.</em>",
   "space.lead": "Orsonero shares its new home with Superhumans, an independent creative agency based between Rome and Milan. The café is on one side, the agency on the other, and in between is a large coworking table open to everyone.",
+  "space.caption": "The big coworking table: study, remote work and coffee just steps away.",
   "space.f1t": "Coworking table",
   "space.f1": "A long shared table bridges the café and the agency. Sit down, open your laptop, and study or work.",
   "space.f2t": "A charger at every seat",
@@ -49,8 +50,8 @@ const EN = {
   "pastry.c1q": "“Highly recommended.” — Milan Foodie Insider",
   "pastry.c2t": "Chocolate viennoiserie",
   "pastry.c2": "Buttery layers and dark chocolate: the breakfast classic, perfect with a flat white.",
-  "pastry.c3t": "The Orsonero break",
-  "pastry.c3": "A pastry, a flat white and a seat at the coworking table: the longest break of the day. Vegan options available too.",
+  "pastry.c3t": "Croissants & pain au chocolat",
+  "pastry.c3": "French laminated dough, filled croissants and pain au chocolat: an international breakfast to enjoy at a table with a cappuccino. Vegan options available too.",
 
   "press.eyebrow": "What they say",
   "press.q1": "“Perhaps this is Orsonero’s real strength: evolving without ever losing its identity.”",
@@ -73,8 +74,8 @@ const EN = {
   "ig.title": "Follow the bear <em>@orsonerocoffee</em>",
 
   "footer.tag": "Specialty coffee · Milan · since 2016",
-  "footer.credits": "Photos: Orsonero Coffee, Google Maps, CiboToday/MilanoToday, Mixer Planet, Artù Magazine/Ristorando, ©2foodtrippers, Flawless.life, © Benedetto Grivo / Milan Foodie Insider. Unofficial demo website.",
-  "footer.designed": "Website designed by",
+  "footer.credits": "Photos: Orsonero Coffee, Google Maps, CiboToday/MilanoToday, Mixer Planet, Artù Magazine/Ristorando, Brand News/Superhumans, Milano Città Stato (@mymilanofood), TripAdvisor users, ©2foodtrippers, Flawless.life, © Benedetto Grivo / Milan Foodie Insider. Unofficial demo website.",
+  "footer.designed": "Website designed by FICO",
 
   "alt.hero": "Orsonero’s room on Via Paolo Lomazzo: light wood tables and large windows",
   "alt.window": "The Orsonero bear logo on the window, since 2016",
@@ -85,7 +86,9 @@ const EN = {
   "alt.latte": "Brent Jopson pouring latte art into a cappuccino",
   "alt.cinnamon": "Orsonero cinnamon roll",
   "alt.pastry": "Chocolate viennoiserie and two flat whites",
-  "alt.flatwhite": "Flat white with latte art"
+  "alt.flatwhite": "Flat white with latte art",
+  "alt.coworking": "People working on laptops at the large coworking table on Via Lomazzo",
+  "alt.cornetti": "Filled croissants and pain au chocolat with cappuccino at Orsonero"
 };
 
 const META = {
@@ -151,7 +154,7 @@ const nav = document.querySelector(".nav");
 addEventListener("scroll", () => nav.classList.toggle("is-scrolled", scrollY > 8), { passive: true });
 
 // Reveal on scroll
-const revealables = document.querySelectorAll(".section__head, .story > *, .tile, .features li, .pull, .coffee__media, .coffee__text, .card, .press figure, .place, .ig__strip img");
+const revealables = document.querySelectorAll(".section__head, .story > *, .tile, .space__wide, .features li, .pull, .coffee__media, .coffee__text, .card, .press figure, .place, .ig__strip img");
 if ("IntersectionObserver" in window) {
   const io = new IntersectionObserver(entries => {
     entries.forEach(e => {
