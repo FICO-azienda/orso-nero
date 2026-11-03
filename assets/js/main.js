@@ -154,7 +154,7 @@ const nav = document.querySelector(".nav");
 addEventListener("scroll", () => nav.classList.toggle("is-scrolled", scrollY > 8), { passive: true });
 
 // Reveal on scroll
-const revealables = document.querySelectorAll(".section__head, .story > *, .tile, .space__wide, .features li, .pull, .coffee__media, .coffee__text, .card, .press figure, .place, .ig__strip img");
+const revealables = document.querySelectorAll(".section .eyebrow, .split, .wide, .pair, .features li, .card, .press figure, .place, .ig__strip img");
 if ("IntersectionObserver" in window) {
   const io = new IntersectionObserver(entries => {
     entries.forEach(e => {
